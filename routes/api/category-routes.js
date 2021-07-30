@@ -42,8 +42,8 @@ router.post('/', async (req, res) => {
 
   // update a category by its `id` value
 router.put('/:id', async (req, res) => {
-  const categoryData = await Category.update(req.body, {where: {id: req.params.id}});
   try {
+    const categoryData = await Category.update(req.body, {where: {id: req.params.id}});
     if(!categoryData){
       res.status(404).json({message: ' Invalid ID, please try again'});
     } else {
