@@ -55,6 +55,9 @@ http://localhost:3001/api/categories
 http://localhost:3001/api/products
 http://localhost:3001/api/tags
 ```
+Below is a preview of the GET route for the tags keyword
+
+<img src="./db/Screenshot.png" alt="preview">
 
 Additionally you can also fine tune the search for GET by tacking on an ID after the key word as shown below. You can also update through PUT and delete entries by DELETE by specifying the ID as well
 ```
