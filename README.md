@@ -65,7 +65,7 @@ http://localhost:3001/api/tags/3
 
 The video below is a small walkthrough of how the application behaves in Insomnia and how you could possibly use each route and how it affects the data
 
-[Video link]()
+[Video link](https://drive.google.com/file/d/1Ms32tMyFXz06EowpqOdoFxR8N1yJm3Du/view)
 
 
 ## Built With
